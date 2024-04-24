@@ -80,7 +80,8 @@ dayjs()
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.svg" />
+         <!-- <img width="150" height="150" src="../../assets/logo.svg" /> -->
+          <img width="200" height="auto" src="../../assets/AT-Nav.svg" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             Ping.pub
           </h1>
@@ -237,7 +238,8 @@ dayjs()
             >
               Wallet Helper
             </div>
-          </RouterLink>
+          </RouterLink> 
+        <!--  
           <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
           {{ $t('module.sponsors') }}
         </div>
@@ -285,8 +287,10 @@ dayjs()
           >
             Becole
           </div>
-        </a>
+        </a> 
+        -->
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
+        <!-- 
         <a
           href="https://twitter.com/ping_pub"
           target="_blank"
@@ -322,6 +326,86 @@ dayjs()
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
             FAQ
+          </div>
+        </a>
+         -->
+        
+        <a
+          href="https://anatolianteam.com/"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:web" class="text-xl mr-2" />
+          <div class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200">
+            Website
+          </div>
+        </a>
+        <a
+          href="https://services.anatolianteam.com/"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:toolbox-outline" class="text-xl mr-2" />
+          <div class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200">
+            Services
+          </div>
+        </a>
+        <a
+          href="https://restake.anatolianteam.com/"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:currency-usd" class="text-xl mr-2" />
+          <div class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200">
+            ReStake
+          </div>
+        </a>        
+        <a
+          href="https://twitter.com/AnatolianTeam"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:twitter" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Twitter
+          </div>
+        </a>
+        <a
+          href="https://github.com/AnatolianTeam"
+          target="_blank"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:github" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            GitHub
+          </div>
+        </a>
+        <a
+          href="https://t.me/AnatolianTeam"
+          target="_blank"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:telegram" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Telegram
+          </div>
+        </a>
+        <a
+          href="https://cosmos.anatolianteam.com/"
+          target="_blank"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:web" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Mainnet Explorer
           </div>
         </a>
       </div>
