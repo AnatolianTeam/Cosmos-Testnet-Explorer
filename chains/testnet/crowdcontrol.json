@@ -1,0 +1,25 @@
+{
+  "chain_name": "CrowdControl",
+  "api": [
+      {"provider": "Anatolian Team", "address": "https://api-t-crowdcontrol.anatolianteam.com"}
+      
+  ],
+  "rpc": [
+      {"provider": "Anatolian Team", "address": "https://rpc-t-crowdcontrol.anatolianteam.com"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "cc",
+  "logo": "/logos/cardchain.svg",
+  "assets": [
+    {
+      "base": "ubpf",
+      "symbol": "BPF",
+      "exponent": "6",
+      "coingecko_id": "crowd-control",
+      "logo": "/logos/cardchain.svg"
+    }
+  ]
+}

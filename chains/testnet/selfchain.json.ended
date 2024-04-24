@@ -1,0 +1,18 @@
+{
+  "chain_name": "SelfChain",
+  "api": [{"provider": "Anatolian Team", "address": "https://api-t-selfchain.anatolianteam.com"}],
+  "rpc": [{"provider": "Anatolian Team", "address": "https://rpc-t-selfchain.anatolianteam.com"}],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.4",
+  "coin_type": "60",
+  "min_tx_fee": "4000",
+  "addr_prefix": "self",
+  "logo": "/logos/selfchain.svg",
+  "assets": [{
+      "base": "uself",
+      "symbol": "SELF",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/selfchain.svg"
+    }]
+}

@@ -1,0 +1,27 @@
+{
+  "chain_name": "OKP4",
+  "api": [
+      {"provider": "Anatolian Team", "address": "https://api-t-okp4.anatolianteam.com"},
+      {"provider": "OKP4", "address": "https://api.testnet.okp4.network"}
+      
+  ],
+  "rpc": [
+      {"provider": "Anatolian Team", "address": "https://rpc-t-okp4.anatolianteam.com"},
+      {"provider": "OKP4", "address": "https://api.testnet.okp4.network:443/rpc"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.2",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "okp4",
+  "logo": "/logos/okp4.svg",
+  "assets": [
+    {
+      "base": "uknow",
+      "symbol": "KNOW",
+      "exponent": "6",
+      "coingecko_id": "okp4",
+      "logo": "/logos/okp4.svg"
+    }
+  ]
+}

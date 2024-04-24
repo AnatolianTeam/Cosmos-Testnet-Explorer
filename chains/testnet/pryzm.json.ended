@@ -1,0 +1,24 @@
+{
+  "chain_name": "Pryzm",
+  "api": [
+      {"provider": "Anatolian Team", "address": "https://api-t-pryzm.anatolianteam.com"}
+  ],
+  "rpc": [
+      {"provider": "Anatolian Team", "address": "https://rpc-t-pryzm.anatolianteam.com"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.4",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "pryzm",
+  "logo": "/logos/pryzm.svg",
+  "assets": [
+    {
+      "base": "upryzm",
+      "symbol": "PRYZM",
+      "exponent": "6",
+      "coingecko_id": "pryzm",
+      "logo": "/logos/pryzm.svg"
+    }
+  ]
+}
