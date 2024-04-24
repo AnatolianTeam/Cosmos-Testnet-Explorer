@@ -82,9 +82,11 @@ dayjs()
         <RouterLink to="/" class="flex items-center">
          <!-- <img width="150" height="150" src="../../assets/logo.svg" /> -->
           <img width="200" height="auto" src="../../assets/AT-Nav.svg" />
+          <!--
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             Ping.pub
           </h1>
+          -->
         </RouterLink>
         <div
           class="pr-4 cursor-pointer xl:!hidden"
