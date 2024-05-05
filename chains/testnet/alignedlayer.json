@@ -1,0 +1,18 @@
+{
+  "chain_name": "Aligned",
+  "api": [{"provider": "Anatolian Team", "address": "https://api-t-aligned.anatolianteam.com"}],
+  "rpc": [{"provider": "Anatolian Team", "address": "https://rpc-t-aligned.anatolianteam.com:443"}],
+  "snapshot_provider": "",
+  "sdk_version": "0.50.3",
+  "coin_type": "118",
+  "min_tx_fee": "200",
+  "addr_prefix": "aligned",
+  "logo": "/logos/aligned.svg",
+  "assets": [{
+      "base": "stake",
+      "symbol": "AL",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/aligned.svg"
+    }]
+}
