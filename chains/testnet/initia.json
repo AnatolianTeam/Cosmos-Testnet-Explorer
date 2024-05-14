@@ -1,0 +1,18 @@
+{
+  "chain_name": "Initia",
+  "api": [{"provider": "Anatolian Team", "address": "https://api-t-initia.anatolianteam.com"}],
+  "rpc": [{"provider": "Anatolian Team", "address": "https://rpc-t-initia.anatolianteam.com:443"}],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.0",
+  "coin_type": "118",
+  "min_tx_fee": "600",
+  "addr_prefix": "0g",
+  "logo": "/logos/initia.svg",
+  "assets": [{
+      "base": "uinit",
+      "symbol": "INIT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/initia.svg"
+    }]
+}
