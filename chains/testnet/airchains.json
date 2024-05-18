@@ -7,12 +7,12 @@
   "coin_type": "118",
   "min_tx_fee": "200",
   "addr_prefix": "air",
-  "logo": "/logos/airchains.svg",
+  "logo": "/logos/airchains.png",
   "assets": [{
       "base": "amf",
       "symbol": "AMF",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "/logos/airchains.svg"
+      "logo": "/logos/airchains.png"
     }]
 }
