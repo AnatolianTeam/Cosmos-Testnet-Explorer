@@ -1,11 +1,11 @@
 {
   "chain_name": "CrowdControl",
   "api": [
-      {"provider": "Anatolian Team", "address": "https://api-t-crowdcontrol.anatolianteam.com"}
+      {"provider": "Stavr", "address": "https://cc.api.t.stavr.tech"}
       
   ],
   "rpc": [
-      {"provider": "Anatolian Team", "address": "https://rpc-t-crowdcontrol.anatolianteam.com"}
+      {"provider": "Stavr", "address": "https://crowd.rpc.t.stavr.tech"}
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
