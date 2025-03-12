@@ -1,0 +1,18 @@
+{
+  "chain_name": "Kii Chain",
+  "api": [{"provider": "Anatolian Team", "address": "https://api-t-kiichain.anatolianteam.com"}],
+  "rpc": [{"provider": "Anatolian Team", "address": "https://rpc-t-kiichain.anatolianteam.com"}],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.6",
+  "coin_type": "60",
+  "min_tx_fee": "0",
+  "addr_prefix": "kii",
+  "logo": "/logos/kii.svg",
+  "assets": [{
+      "base": "ukii",
+      "symbol": "KII",
+      "exponent": "18",
+      "coingecko_id": "kii",
+      "logo": "/logos/kii.svg"
+    }]
+}
